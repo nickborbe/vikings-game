@@ -13,7 +13,7 @@ describe("Soldier", function () {
     });
 
     it("should receive the health property as its 1st argument", function () {
-      expect(soldier.health).toEqual(health);
+      expect(soldier.health).toEqual(300);
     });
 
     it("should receive the strength property as its 2nd argument", function () {

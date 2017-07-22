@@ -11,6 +11,7 @@ function Soldier (healthArg, strengthArg) {
 
 Soldier.prototype.attack = function () {
   return this.strength;
+
 };
 
 Soldier.prototype.receiveDamage = function (damage) {

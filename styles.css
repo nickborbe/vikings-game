@@ -1,0 +1,43 @@
+.full-page{
+  height: 110vh;
+  background: url('images/glacier.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.viking-pic{
+  width: 100px;
+}
+
+.saxon-pic{
+  width: 60px;
+  margin-left: 15px;
+}
+
+.buttons{
+  margin-top: 50px;
+}
+
+.armies{
+  margin-top: 30px;
+}
+
+.viking-attack, .saxon-attack{
+  margin-left: 75px;
+}
+
+.viking-box, .saxon-box{
+  display: inline-block;
+  margin: 15px;
+}
+
+.health, .strength{
+  color: white;
+  margin-left: 5px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+font-weight:bold;
+
+}
