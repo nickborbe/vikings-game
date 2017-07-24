@@ -3,6 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Viking City</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="src/viking.js">
+  // choose one of these 2 script tags and leave the other commented out
+  // vikingjs has all the animations and fancy stuff
+  // while basicjs focuses purely on functionality and should be easier to read
+  // <script type="text/javascript" src="src/basic.js">
+
+  </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -55,7 +65,10 @@
         </div>
       </div>
 
-      <div class="col-xs-4"></div><!-- left empty for spacing -->
+      <div class="col-xs-4">
+        <p class="info bg-primary center-block">Oh boy, here I go killin' again!</p>
+        <div class="result center-block"></div>
+      </div>
 
       <div class="col-xs-3 theSaxons">
         <div class="saxon-box 1">
