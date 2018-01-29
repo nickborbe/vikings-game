@@ -7,7 +7,7 @@ function Soldier (healthArg, strengthArg) {
   // this.attack =  function () {
   //   return this.strength;
   // }
-}
+};
 
 Soldier.prototype.attack = function () {
   return this.strength;
